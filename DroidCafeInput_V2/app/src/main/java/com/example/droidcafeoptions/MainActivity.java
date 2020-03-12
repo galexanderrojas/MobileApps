@@ -1,4 +1,4 @@
-package com.example.droidcafeinput_v2;
+package com.example.droidcafeoptions;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     //Tag for the intent extra
     public static final String EXTRA_MESSAGE =
-            "com.example.android.droidcafeinput_v2.extra.MESSAGE";
+            "com.example.android.droidcafeoptions.extra.MESSAGE";
 
     // The order message, displayed in the Toast and sent to the new Activity.
     private String mOrderMessage;
